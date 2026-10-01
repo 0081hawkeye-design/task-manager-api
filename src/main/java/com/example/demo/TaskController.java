@@ -1,11 +1,13 @@
 package com.example.demo;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import jakarta.validation.Valid;
 import java.util.List;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
+@CrossOrigin(origins = "http://localhost:5173") // allow our React app to call this API
 @RestController
 @RequestMapping("/tasks")
 public class TaskController {
