@@ -33,3 +33,6 @@ POST /tasks
 - Dependency injection
 - Saving data with JPA and H2
 - Input validation and proper 404 errors
+
+## Frontend
+React (Vite) app in the `frontend` folder. Run with `npm install` then `npm run dev`, and open http://localhost:5173
